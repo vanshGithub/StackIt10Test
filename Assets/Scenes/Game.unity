@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 705507994}
-  m_IndirectSpecularColor: {r: 0.44402185, g: 0.49316466, b: 0.57223153, a: 1}
+  m_IndirectSpecularColor: {r: 0.44657826, g: 0.49641263, b: 0.57481676, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -138,7 +138,7 @@ GameObject:
   - component: {fileID: 141907290}
   m_Layer: 0
   m_Name: Points
-  m_TagString: SnapPoint
+  m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -158,9 +158,9 @@ BoxCollider:
     serializedVersion: 2
     m_Bits: 0
   m_LayerOverridePriority: 0
-  m_IsTrigger: 1
+  m_IsTrigger: 0
   m_ProvidesContacts: 0
-  m_Enabled: 1
+  m_Enabled: 0
   serializedVersion: 3
   m_Size: {x: 0.66, y: 1.91, z: 0.58}
   m_Center: {x: 0, y: 0.89, z: 0}
@@ -242,6 +242,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   tileHolder: {fileID: 0}
+  column: 1
+  row: 0
 --- !u!1 &180703269
 GameObject:
   m_ObjectHideFlags: 0
@@ -257,7 +259,7 @@ GameObject:
   - component: {fileID: 180703274}
   m_Layer: 0
   m_Name: Points
-  m_TagString: SnapPoint
+  m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -277,9 +279,9 @@ BoxCollider:
     serializedVersion: 2
     m_Bits: 0
   m_LayerOverridePriority: 0
-  m_IsTrigger: 1
+  m_IsTrigger: 0
   m_ProvidesContacts: 0
-  m_Enabled: 1
+  m_Enabled: 0
   serializedVersion: 3
   m_Size: {x: 0.66, y: 1.91, z: 0.58}
   m_Center: {x: 0, y: 0.89, z: 0}
@@ -361,6 +363,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   tileHolder: {fileID: 0}
+  column: 0
+  row: 5
 --- !u!1 &321394196
 GameObject:
   m_ObjectHideFlags: 0
@@ -427,7 +431,7 @@ BoxCollider:
     serializedVersion: 2
     m_Bits: 0
   m_LayerOverridePriority: 0
-  m_IsTrigger: 1
+  m_IsTrigger: 0
   m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 3
@@ -511,6 +515,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   tileHolder: {fileID: 0}
+  column: 8
+  row: 5
 --- !u!1 &323115652
 GameObject:
   m_ObjectHideFlags: 0
@@ -609,7 +615,7 @@ GameObject:
   - component: {fileID: 340657709}
   m_Layer: 0
   m_Name: Points
-  m_TagString: SnapPoint
+  m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -629,9 +635,9 @@ BoxCollider:
     serializedVersion: 2
     m_Bits: 0
   m_LayerOverridePriority: 0
-  m_IsTrigger: 1
+  m_IsTrigger: 0
   m_ProvidesContacts: 0
-  m_Enabled: 1
+  m_Enabled: 0
   serializedVersion: 3
   m_Size: {x: 0.66, y: 1.91, z: 0.58}
   m_Center: {x: 0, y: 0.89, z: 0}
@@ -713,6 +719,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   tileHolder: {fileID: 0}
+  column: 6
+  row: 3
 --- !u!1 &347318240
 GameObject:
   m_ObjectHideFlags: 0
@@ -728,7 +736,7 @@ GameObject:
   - component: {fileID: 347318245}
   m_Layer: 0
   m_Name: Points
-  m_TagString: SnapPoint
+  m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -748,9 +756,9 @@ BoxCollider:
     serializedVersion: 2
     m_Bits: 0
   m_LayerOverridePriority: 0
-  m_IsTrigger: 1
+  m_IsTrigger: 0
   m_ProvidesContacts: 0
-  m_Enabled: 1
+  m_Enabled: 0
   serializedVersion: 3
   m_Size: {x: 0.66, y: 1.91, z: 0.58}
   m_Center: {x: 0, y: 0.89, z: 0}
@@ -832,6 +840,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   tileHolder: {fileID: 0}
+  column: 5
+  row: 3
 --- !u!1 &351603980
 GameObject:
   m_ObjectHideFlags: 0
@@ -847,7 +857,7 @@ GameObject:
   - component: {fileID: 351603985}
   m_Layer: 0
   m_Name: Points
-  m_TagString: SnapPoint
+  m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -867,9 +877,9 @@ BoxCollider:
     serializedVersion: 2
     m_Bits: 0
   m_LayerOverridePriority: 0
-  m_IsTrigger: 1
+  m_IsTrigger: 0
   m_ProvidesContacts: 0
-  m_Enabled: 1
+  m_Enabled: 0
   serializedVersion: 3
   m_Size: {x: 0.66, y: 1.91, z: 0.58}
   m_Center: {x: 0, y: 0.89, z: 0}
@@ -951,6 +961,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   tileHolder: {fileID: 0}
+  column: 4
+  row: 4
 --- !u!1 &355454498
 GameObject:
   m_ObjectHideFlags: 0
@@ -966,7 +978,7 @@ GameObject:
   - component: {fileID: 355454503}
   m_Layer: 0
   m_Name: Points
-  m_TagString: SnapPoint
+  m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -986,9 +998,9 @@ BoxCollider:
     serializedVersion: 2
     m_Bits: 0
   m_LayerOverridePriority: 0
-  m_IsTrigger: 1
+  m_IsTrigger: 0
   m_ProvidesContacts: 0
-  m_Enabled: 1
+  m_Enabled: 0
   serializedVersion: 3
   m_Size: {x: 0.66, y: 1.91, z: 0.58}
   m_Center: {x: 0, y: 0.89, z: 0}
@@ -1070,6 +1082,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   tileHolder: {fileID: 0}
+  column: 1
+  row: 5
 --- !u!1 &369223663
 GameObject:
   m_ObjectHideFlags: 0
@@ -1105,7 +1119,7 @@ BoxCollider:
     serializedVersion: 2
     m_Bits: 0
   m_LayerOverridePriority: 0
-  m_IsTrigger: 1
+  m_IsTrigger: 0
   m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 3
@@ -1189,6 +1203,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   tileHolder: {fileID: 0}
+  column: 8
+  row: 0
 --- !u!1 &463597777
 GameObject:
   m_ObjectHideFlags: 0
@@ -1255,7 +1271,7 @@ BoxCollider:
     serializedVersion: 2
     m_Bits: 0
   m_LayerOverridePriority: 0
-  m_IsTrigger: 1
+  m_IsTrigger: 0
   m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 3
@@ -1320,7 +1336,7 @@ Transform:
   m_GameObject: {fileID: 467858518}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -0.5, y: -0.4, z: 8}
+  m_LocalPosition: {x: -0.50000006, y: -0.4, z: 8}
   m_LocalScale: {x: 1.0972, y: 1.9986595, z: 1.0972}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -1339,6 +1355,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   tileHolder: {fileID: 0}
+  column: 8
+  row: 2
 --- !u!1 &475440339
 GameObject:
   m_ObjectHideFlags: 0
@@ -1385,7 +1403,7 @@ GameObject:
   - component: {fileID: 556543943}
   m_Layer: 0
   m_Name: Points
-  m_TagString: SnapPoint
+  m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1405,9 +1423,9 @@ BoxCollider:
     serializedVersion: 2
     m_Bits: 0
   m_LayerOverridePriority: 0
-  m_IsTrigger: 1
+  m_IsTrigger: 0
   m_ProvidesContacts: 0
-  m_Enabled: 1
+  m_Enabled: 0
   serializedVersion: 3
   m_Size: {x: 0.66, y: 1.91, z: 0.58}
   m_Center: {x: 0, y: 0.89, z: 0}
@@ -1470,7 +1488,7 @@ Transform:
   m_GameObject: {fileID: 556543938}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -0.5, y: -0.4, z: 0.5}
+  m_LocalPosition: {x: -0.50000006, y: -0.4, z: 0.5}
   m_LocalScale: {x: 1.0972, y: 1.9986595, z: 1.0972}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -1489,6 +1507,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   tileHolder: {fileID: 0}
+  column: 2
+  row: 2
 --- !u!1 &570060408
 GameObject:
   m_ObjectHideFlags: 0
@@ -1504,7 +1524,7 @@ GameObject:
   - component: {fileID: 570060413}
   m_Layer: 0
   m_Name: Points
-  m_TagString: SnapPoint
+  m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1524,9 +1544,9 @@ BoxCollider:
     serializedVersion: 2
     m_Bits: 0
   m_LayerOverridePriority: 0
-  m_IsTrigger: 1
+  m_IsTrigger: 0
   m_ProvidesContacts: 0
-  m_Enabled: 1
+  m_Enabled: 0
   serializedVersion: 3
   m_Size: {x: 0.66, y: 1.91, z: 0.58}
   m_Center: {x: 0, y: 0.89, z: 0}
@@ -1608,6 +1628,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   tileHolder: {fileID: 0}
+  column: 4
+  row: 0
 --- !u!1 &571056278
 GameObject:
   m_ObjectHideFlags: 0
@@ -1623,7 +1645,7 @@ GameObject:
   - component: {fileID: 571056283}
   m_Layer: 0
   m_Name: Points
-  m_TagString: SnapPoint
+  m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1643,9 +1665,9 @@ BoxCollider:
     serializedVersion: 2
     m_Bits: 0
   m_LayerOverridePriority: 0
-  m_IsTrigger: 1
+  m_IsTrigger: 0
   m_ProvidesContacts: 0
-  m_Enabled: 1
+  m_Enabled: 0
   serializedVersion: 3
   m_Size: {x: 0.66, y: 1.91, z: 0.58}
   m_Center: {x: 0, y: 0.89, z: 0}
@@ -1727,6 +1749,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   tileHolder: {fileID: 0}
+  column: 7
+  row: 0
 --- !u!1 &584610740
 GameObject:
   m_ObjectHideFlags: 0
@@ -1742,7 +1766,7 @@ GameObject:
   - component: {fileID: 584610745}
   m_Layer: 0
   m_Name: Points
-  m_TagString: SnapPoint
+  m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1762,9 +1786,9 @@ BoxCollider:
     serializedVersion: 2
     m_Bits: 0
   m_LayerOverridePriority: 0
-  m_IsTrigger: 1
+  m_IsTrigger: 0
   m_ProvidesContacts: 0
-  m_Enabled: 1
+  m_Enabled: 0
   serializedVersion: 3
   m_Size: {x: 0.66, y: 1.91, z: 0.58}
   m_Center: {x: 0, y: 0.89, z: 0}
@@ -1846,6 +1870,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   tileHolder: {fileID: 0}
+  column: 1
+  row: 2
 --- !u!1 &590588822
 GameObject:
   m_ObjectHideFlags: 0
@@ -1861,7 +1887,7 @@ GameObject:
   - component: {fileID: 590588827}
   m_Layer: 0
   m_Name: Points
-  m_TagString: SnapPoint
+  m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1881,9 +1907,9 @@ BoxCollider:
     serializedVersion: 2
     m_Bits: 0
   m_LayerOverridePriority: 0
-  m_IsTrigger: 1
+  m_IsTrigger: 0
   m_ProvidesContacts: 0
-  m_Enabled: 1
+  m_Enabled: 0
   serializedVersion: 3
   m_Size: {x: 0.66, y: 1.91, z: 0.58}
   m_Center: {x: 0, y: 0.89, z: 0}
@@ -1965,6 +1991,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   tileHolder: {fileID: 0}
+  column: 2
+  row: 3
 --- !u!1 &691099292
 GameObject:
   m_ObjectHideFlags: 0
@@ -1980,7 +2008,7 @@ GameObject:
   - component: {fileID: 691099297}
   m_Layer: 0
   m_Name: Points
-  m_TagString: SnapPoint
+  m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -2000,9 +2028,9 @@ BoxCollider:
     serializedVersion: 2
     m_Bits: 0
   m_LayerOverridePriority: 0
-  m_IsTrigger: 1
+  m_IsTrigger: 0
   m_ProvidesContacts: 0
-  m_Enabled: 1
+  m_Enabled: 0
   serializedVersion: 3
   m_Size: {x: 0.66, y: 1.91, z: 0.58}
   m_Center: {x: 0, y: 0.89, z: 0}
@@ -2065,7 +2093,7 @@ Transform:
   m_GameObject: {fileID: 691099292}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -1.75, y: -0.4, z: 1.75}
+  m_LocalPosition: {x: -1.7500001, y: -0.4, z: 1.75}
   m_LocalScale: {x: 1.0972, y: 1.9986595, z: 1.0972}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -2084,6 +2112,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   tileHolder: {fileID: 0}
+  column: 3
+  row: 1
 --- !u!1 &705507993
 GameObject:
   m_ObjectHideFlags: 0
@@ -2193,7 +2223,7 @@ GameObject:
   - component: {fileID: 708215996}
   m_Layer: 0
   m_Name: Points
-  m_TagString: SnapPoint
+  m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -2213,9 +2243,9 @@ BoxCollider:
     serializedVersion: 2
     m_Bits: 0
   m_LayerOverridePriority: 0
-  m_IsTrigger: 1
+  m_IsTrigger: 0
   m_ProvidesContacts: 0
-  m_Enabled: 1
+  m_Enabled: 0
   serializedVersion: 3
   m_Size: {x: 0.66, y: 1.91, z: 0.58}
   m_Center: {x: 0, y: 0.89, z: 0}
@@ -2297,6 +2327,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   tileHolder: {fileID: 0}
+  column: 1
+  row: 3
 --- !u!1 &725772237
 GameObject:
   m_ObjectHideFlags: 0
@@ -2327,61 +2359,63 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   snapPoints:
-  - {fileID: 180703274}
-  - {fileID: 1406080300}
-  - {fileID: 1825125860}
-  - {fileID: 1305065108}
-  - {fileID: 944033913}
   - {fileID: 2056151954}
-  - {fileID: 355454503}
-  - {fileID: 1877928128}
-  - {fileID: 708215996}
-  - {fileID: 584610745}
-  - {fileID: 2093487457}
+  - {fileID: 944033913}
+  - {fileID: 1305065108}
+  - {fileID: 1825125860}
+  - {fileID: 1406080300}
+  - {fileID: 180703274}
   - {fileID: 141907290}
-  - {fileID: 1114716856}
-  - {fileID: 1671576029}
-  - {fileID: 590588827}
-  - {fileID: 556543943}
-  - {fileID: 1743223375}
+  - {fileID: 2093487457}
+  - {fileID: 584610745}
+  - {fileID: 708215996}
+  - {fileID: 1877928128}
+  - {fileID: 355454503}
   - {fileID: 1581126598}
-  - {fileID: 1417829420}
-  - {fileID: 1602480544}
-  - {fileID: 1202227730}
-  - {fileID: 1896954650}
-  - {fileID: 691099297}
+  - {fileID: 1743223375}
+  - {fileID: 556543943}
+  - {fileID: 590588827}
+  - {fileID: 1671576029}
+  - {fileID: 1114716856}
   - {fileID: 1310222278}
-  - {fileID: 1182478800}
-  - {fileID: 351603985}
-  - {fileID: 1712588216}
-  - {fileID: 1774245844}
-  - {fileID: 748489384}
+  - {fileID: 691099297}
+  - {fileID: 1896954650}
+  - {fileID: 1202227730}
+  - {fileID: 1602480544}
+  - {fileID: 1417829420}
   - {fileID: 570060413}
-  - {fileID: 1377871151}
-  - {fileID: 1781321103}
-  - {fileID: 347318245}
-  - {fileID: 1695338369}
-  - {fileID: 1917665090}
+  - {fileID: 748489384}
+  - {fileID: 1774245844}
+  - {fileID: 1712588216}
+  - {fileID: 351603985}
+  - {fileID: 1182478800}
   - {fileID: 954062872}
-  - {fileID: 2045636898}
-  - {fileID: 1332637306}
-  - {fileID: 340657709}
-  - {fileID: 2069198615}
-  - {fileID: 2069277142}
+  - {fileID: 1917665090}
+  - {fileID: 1695338369}
+  - {fileID: 347318245}
+  - {fileID: 1781321103}
+  - {fileID: 1377871151}
   - {fileID: 1693354765}
-  - {fileID: 1633580738}
-  - {fileID: 1365461975}
-  - {fileID: 1969917671}
-  - {fileID: 1200355407}
-  - {fileID: 1504411729}
+  - {fileID: 2069277142}
+  - {fileID: 2069198615}
+  - {fileID: 340657709}
+  - {fileID: 1332637306}
+  - {fileID: 2045636898}
   - {fileID: 571056283}
-  - {fileID: 323023353}
-  - {fileID: 1873945262}
-  - {fileID: 897119669}
-  - {fileID: 467858523}
-  - {fileID: 1998927223}
+  - {fileID: 1504411729}
+  - {fileID: 1200355407}
+  - {fileID: 1969917671}
+  - {fileID: 1365461975}
+  - {fileID: 1633580738}
   - {fileID: 369223668}
-  tilesHolder: []
+  - {fileID: 1998927223}
+  - {fileID: 467858523}
+  - {fileID: 897119669}
+  - {fileID: 1873945262}
+  - {fileID: 323023353}
+  snapPointsManager: {fileID: 0}
+  fixedTileHolder: 0
+  nearbyTileMatched: 0
 --- !u!4 &725772239
 Transform:
   m_ObjectHideFlags: 0
@@ -2443,7 +2477,7 @@ GameObject:
   - component: {fileID: 748489384}
   m_Layer: 0
   m_Name: Points
-  m_TagString: SnapPoint
+  m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -2463,9 +2497,9 @@ BoxCollider:
     serializedVersion: 2
     m_Bits: 0
   m_LayerOverridePriority: 0
-  m_IsTrigger: 1
+  m_IsTrigger: 0
   m_ProvidesContacts: 0
-  m_Enabled: 1
+  m_Enabled: 0
   serializedVersion: 3
   m_Size: {x: 0.66, y: 1.91, z: 0.58}
   m_Center: {x: 0, y: 0.89, z: 0}
@@ -2528,7 +2562,7 @@ Transform:
   m_GameObject: {fileID: 748489379}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -1.75, y: -0.4, z: 3}
+  m_LocalPosition: {x: -1.7500001, y: -0.4, z: 3}
   m_LocalScale: {x: 1.0972, y: 1.9986595, z: 1.0972}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -2547,6 +2581,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   tileHolder: {fileID: 0}
+  column: 4
+  row: 1
 --- !u!1 &845634757
 GameObject:
   m_ObjectHideFlags: 0
@@ -2664,7 +2700,7 @@ BoxCollider:
     serializedVersion: 2
     m_Bits: 0
   m_LayerOverridePriority: 0
-  m_IsTrigger: 1
+  m_IsTrigger: 0
   m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 3
@@ -2748,6 +2784,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   tileHolder: {fileID: 0}
+  column: 8
+  row: 3
 --- !u!1 &944033908
 GameObject:
   m_ObjectHideFlags: 0
@@ -2763,7 +2801,7 @@ GameObject:
   - component: {fileID: 944033913}
   m_Layer: 0
   m_Name: Points
-  m_TagString: SnapPoint
+  m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -2783,9 +2821,9 @@ BoxCollider:
     serializedVersion: 2
     m_Bits: 0
   m_LayerOverridePriority: 0
-  m_IsTrigger: 1
+  m_IsTrigger: 0
   m_ProvidesContacts: 0
-  m_Enabled: 1
+  m_Enabled: 0
   serializedVersion: 3
   m_Size: {x: 0.66, y: 1.91, z: 0.58}
   m_Center: {x: 0, y: 0.89, z: 0}
@@ -2867,6 +2905,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   tileHolder: {fileID: 0}
+  column: 0
+  row: 1
 --- !u!1 &954062867
 GameObject:
   m_ObjectHideFlags: 0
@@ -2882,7 +2922,7 @@ GameObject:
   - component: {fileID: 954062872}
   m_Layer: 0
   m_Name: Points
-  m_TagString: SnapPoint
+  m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -2902,9 +2942,9 @@ BoxCollider:
     serializedVersion: 2
     m_Bits: 0
   m_LayerOverridePriority: 0
-  m_IsTrigger: 1
+  m_IsTrigger: 0
   m_ProvidesContacts: 0
-  m_Enabled: 1
+  m_Enabled: 0
   serializedVersion: 3
   m_Size: {x: 0.66, y: 1.91, z: 0.58}
   m_Center: {x: 0, y: 0.89, z: 0}
@@ -2986,6 +3026,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   tileHolder: {fileID: 0}
+  column: 5
+  row: 0
 --- !u!1 &963194225
 GameObject:
   m_ObjectHideFlags: 0
@@ -3146,7 +3188,7 @@ GameObject:
   - component: {fileID: 1114716856}
   m_Layer: 0
   m_Name: Points
-  m_TagString: SnapPoint
+  m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -3166,9 +3208,9 @@ BoxCollider:
     serializedVersion: 2
     m_Bits: 0
   m_LayerOverridePriority: 0
-  m_IsTrigger: 1
+  m_IsTrigger: 0
   m_ProvidesContacts: 0
-  m_Enabled: 1
+  m_Enabled: 0
   serializedVersion: 3
   m_Size: {x: 0.66, y: 1.91, z: 0.58}
   m_Center: {x: 0, y: 0.89, z: 0}
@@ -3250,6 +3292,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   tileHolder: {fileID: 0}
+  column: 2
+  row: 5
 --- !u!1 &1182478795
 GameObject:
   m_ObjectHideFlags: 0
@@ -3265,7 +3309,7 @@ GameObject:
   - component: {fileID: 1182478800}
   m_Layer: 0
   m_Name: Points
-  m_TagString: SnapPoint
+  m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -3285,9 +3329,9 @@ BoxCollider:
     serializedVersion: 2
     m_Bits: 0
   m_LayerOverridePriority: 0
-  m_IsTrigger: 1
+  m_IsTrigger: 0
   m_ProvidesContacts: 0
-  m_Enabled: 1
+  m_Enabled: 0
   serializedVersion: 3
   m_Size: {x: 0.66, y: 1.91, z: 0.58}
   m_Center: {x: 0, y: 0.89, z: 0}
@@ -3369,6 +3413,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   tileHolder: {fileID: 0}
+  column: 4
+  row: 5
 --- !u!1 &1200355402
 GameObject:
   m_ObjectHideFlags: 0
@@ -3384,7 +3430,7 @@ GameObject:
   - component: {fileID: 1200355407}
   m_Layer: 0
   m_Name: Points
-  m_TagString: SnapPoint
+  m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -3404,9 +3450,9 @@ BoxCollider:
     serializedVersion: 2
     m_Bits: 0
   m_LayerOverridePriority: 0
-  m_IsTrigger: 1
+  m_IsTrigger: 0
   m_ProvidesContacts: 0
-  m_Enabled: 1
+  m_Enabled: 0
   serializedVersion: 3
   m_Size: {x: 0.66, y: 1.91, z: 0.58}
   m_Center: {x: 0, y: 0.89, z: 0}
@@ -3469,7 +3515,7 @@ Transform:
   m_GameObject: {fileID: 1200355402}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -0.5, y: -0.4, z: 6.75}
+  m_LocalPosition: {x: -0.50000006, y: -0.4, z: 6.75}
   m_LocalScale: {x: 1.0972, y: 1.9986595, z: 1.0972}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -3488,6 +3534,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   tileHolder: {fileID: 0}
+  column: 7
+  row: 2
 --- !u!1 &1202227725
 GameObject:
   m_ObjectHideFlags: 0
@@ -3503,7 +3551,7 @@ GameObject:
   - component: {fileID: 1202227730}
   m_Layer: 0
   m_Name: Points
-  m_TagString: SnapPoint
+  m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -3523,9 +3571,9 @@ BoxCollider:
     serializedVersion: 2
     m_Bits: 0
   m_LayerOverridePriority: 0
-  m_IsTrigger: 1
+  m_IsTrigger: 0
   m_ProvidesContacts: 0
-  m_Enabled: 1
+  m_Enabled: 0
   serializedVersion: 3
   m_Size: {x: 0.66, y: 1.91, z: 0.58}
   m_Center: {x: 0, y: 0.89, z: 0}
@@ -3607,6 +3655,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   tileHolder: {fileID: 0}
+  column: 3
+  row: 3
 --- !u!1 &1305065103
 GameObject:
   m_ObjectHideFlags: 0
@@ -3622,7 +3672,7 @@ GameObject:
   - component: {fileID: 1305065108}
   m_Layer: 0
   m_Name: Points
-  m_TagString: SnapPoint
+  m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -3642,9 +3692,9 @@ BoxCollider:
     serializedVersion: 2
     m_Bits: 0
   m_LayerOverridePriority: 0
-  m_IsTrigger: 1
+  m_IsTrigger: 0
   m_ProvidesContacts: 0
-  m_Enabled: 1
+  m_Enabled: 0
   serializedVersion: 3
   m_Size: {x: 0.66, y: 1.91, z: 0.58}
   m_Center: {x: 0, y: 0.89, z: 0}
@@ -3726,6 +3776,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   tileHolder: {fileID: 0}
+  column: 0
+  row: 2
 --- !u!1 &1310222273
 GameObject:
   m_ObjectHideFlags: 0
@@ -3741,7 +3793,7 @@ GameObject:
   - component: {fileID: 1310222278}
   m_Layer: 0
   m_Name: Points
-  m_TagString: SnapPoint
+  m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -3761,9 +3813,9 @@ BoxCollider:
     serializedVersion: 2
     m_Bits: 0
   m_LayerOverridePriority: 0
-  m_IsTrigger: 1
+  m_IsTrigger: 0
   m_ProvidesContacts: 0
-  m_Enabled: 1
+  m_Enabled: 0
   serializedVersion: 3
   m_Size: {x: 0.66, y: 1.91, z: 0.58}
   m_Center: {x: 0, y: 0.89, z: 0}
@@ -3845,6 +3897,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   tileHolder: {fileID: 0}
+  column: 3
+  row: 0
 --- !u!1 &1332637301
 GameObject:
   m_ObjectHideFlags: 0
@@ -3860,7 +3914,7 @@ GameObject:
   - component: {fileID: 1332637306}
   m_Layer: 0
   m_Name: Points
-  m_TagString: SnapPoint
+  m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -3880,9 +3934,9 @@ BoxCollider:
     serializedVersion: 2
     m_Bits: 0
   m_LayerOverridePriority: 0
-  m_IsTrigger: 1
+  m_IsTrigger: 0
   m_ProvidesContacts: 0
-  m_Enabled: 1
+  m_Enabled: 0
   serializedVersion: 3
   m_Size: {x: 0.66, y: 1.91, z: 0.58}
   m_Center: {x: 0, y: 0.89, z: 0}
@@ -3964,6 +4018,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   tileHolder: {fileID: 0}
+  column: 6
+  row: 4
 --- !u!1 &1365461970
 GameObject:
   m_ObjectHideFlags: 0
@@ -3979,7 +4035,7 @@ GameObject:
   - component: {fileID: 1365461975}
   m_Layer: 0
   m_Name: Points
-  m_TagString: SnapPoint
+  m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -3999,9 +4055,9 @@ BoxCollider:
     serializedVersion: 2
     m_Bits: 0
   m_LayerOverridePriority: 0
-  m_IsTrigger: 1
+  m_IsTrigger: 0
   m_ProvidesContacts: 0
-  m_Enabled: 1
+  m_Enabled: 0
   serializedVersion: 3
   m_Size: {x: 0.66, y: 1.91, z: 0.58}
   m_Center: {x: 0, y: 0.89, z: 0}
@@ -4083,6 +4139,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   tileHolder: {fileID: 0}
+  column: 7
+  row: 4
 --- !u!1 &1377871146
 GameObject:
   m_ObjectHideFlags: 0
@@ -4098,7 +4156,7 @@ GameObject:
   - component: {fileID: 1377871151}
   m_Layer: 0
   m_Name: Points
-  m_TagString: SnapPoint
+  m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -4118,9 +4176,9 @@ BoxCollider:
     serializedVersion: 2
     m_Bits: 0
   m_LayerOverridePriority: 0
-  m_IsTrigger: 1
+  m_IsTrigger: 0
   m_ProvidesContacts: 0
-  m_Enabled: 1
+  m_Enabled: 0
   serializedVersion: 3
   m_Size: {x: 0.66, y: 1.91, z: 0.58}
   m_Center: {x: 0, y: 0.89, z: 0}
@@ -4202,6 +4260,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   tileHolder: {fileID: 0}
+  column: 5
+  row: 5
 --- !u!1 &1406080295
 GameObject:
   m_ObjectHideFlags: 0
@@ -4217,7 +4277,7 @@ GameObject:
   - component: {fileID: 1406080300}
   m_Layer: 0
   m_Name: Points
-  m_TagString: SnapPoint
+  m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -4237,9 +4297,9 @@ BoxCollider:
     serializedVersion: 2
     m_Bits: 0
   m_LayerOverridePriority: 0
-  m_IsTrigger: 1
+  m_IsTrigger: 0
   m_ProvidesContacts: 0
-  m_Enabled: 1
+  m_Enabled: 0
   serializedVersion: 3
   m_Size: {x: 0.66, y: 1.91, z: 0.58}
   m_Center: {x: 0, y: 0.89, z: 0}
@@ -4321,6 +4381,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   tileHolder: {fileID: 0}
+  column: 0
+  row: 4
 --- !u!1 &1417829415
 GameObject:
   m_ObjectHideFlags: 0
@@ -4336,7 +4398,7 @@ GameObject:
   - component: {fileID: 1417829420}
   m_Layer: 0
   m_Name: Points
-  m_TagString: SnapPoint
+  m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -4356,9 +4418,9 @@ BoxCollider:
     serializedVersion: 2
     m_Bits: 0
   m_LayerOverridePriority: 0
-  m_IsTrigger: 1
+  m_IsTrigger: 0
   m_ProvidesContacts: 0
-  m_Enabled: 1
+  m_Enabled: 0
   serializedVersion: 3
   m_Size: {x: 0.66, y: 1.91, z: 0.58}
   m_Center: {x: 0, y: 0.89, z: 0}
@@ -4440,6 +4502,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   tileHolder: {fileID: 0}
+  column: 3
+  row: 5
 --- !u!1 &1504411724
 GameObject:
   m_ObjectHideFlags: 0
@@ -4455,7 +4519,7 @@ GameObject:
   - component: {fileID: 1504411729}
   m_Layer: 0
   m_Name: Points
-  m_TagString: SnapPoint
+  m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -4475,9 +4539,9 @@ BoxCollider:
     serializedVersion: 2
     m_Bits: 0
   m_LayerOverridePriority: 0
-  m_IsTrigger: 1
+  m_IsTrigger: 0
   m_ProvidesContacts: 0
-  m_Enabled: 1
+  m_Enabled: 0
   serializedVersion: 3
   m_Size: {x: 0.66, y: 1.91, z: 0.58}
   m_Center: {x: 0, y: 0.89, z: 0}
@@ -4540,7 +4604,7 @@ Transform:
   m_GameObject: {fileID: 1504411724}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -1.75, y: -0.4, z: 6.75}
+  m_LocalPosition: {x: -1.7500001, y: -0.4, z: 6.75}
   m_LocalScale: {x: 1.0972, y: 1.9986595, z: 1.0972}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -4559,6 +4623,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   tileHolder: {fileID: 0}
+  column: 7
+  row: 1
 --- !u!1 &1581126593
 GameObject:
   m_ObjectHideFlags: 0
@@ -4574,7 +4640,7 @@ GameObject:
   - component: {fileID: 1581126598}
   m_Layer: 0
   m_Name: Points
-  m_TagString: SnapPoint
+  m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -4594,9 +4660,9 @@ BoxCollider:
     serializedVersion: 2
     m_Bits: 0
   m_LayerOverridePriority: 0
-  m_IsTrigger: 1
+  m_IsTrigger: 0
   m_ProvidesContacts: 0
-  m_Enabled: 1
+  m_Enabled: 0
   serializedVersion: 3
   m_Size: {x: 0.66, y: 1.91, z: 0.58}
   m_Center: {x: 0, y: 0.89, z: 0}
@@ -4678,6 +4744,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   tileHolder: {fileID: 0}
+  column: 2
+  row: 0
 --- !u!1 &1602480539
 GameObject:
   m_ObjectHideFlags: 0
@@ -4693,7 +4761,7 @@ GameObject:
   - component: {fileID: 1602480544}
   m_Layer: 0
   m_Name: Points
-  m_TagString: SnapPoint
+  m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -4713,9 +4781,9 @@ BoxCollider:
     serializedVersion: 2
     m_Bits: 0
   m_LayerOverridePriority: 0
-  m_IsTrigger: 1
+  m_IsTrigger: 0
   m_ProvidesContacts: 0
-  m_Enabled: 1
+  m_Enabled: 0
   serializedVersion: 3
   m_Size: {x: 0.66, y: 1.91, z: 0.58}
   m_Center: {x: 0, y: 0.89, z: 0}
@@ -4797,6 +4865,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   tileHolder: {fileID: 0}
+  column: 3
+  row: 4
 --- !u!1 &1632247742
 GameObject:
   m_ObjectHideFlags: 0
@@ -4806,6 +4876,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1632247743}
+  - component: {fileID: 1632247744}
   m_Layer: 0
   m_Name: SnapPoints
   m_TagString: Untagged
@@ -4826,62 +4897,74 @@ Transform:
   m_LocalScale: {x: 0.9997132, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
-  - {fileID: 180703273}
-  - {fileID: 1406080299}
-  - {fileID: 1825125859}
-  - {fileID: 1305065107}
-  - {fileID: 944033912}
   - {fileID: 2056151953}
-  - {fileID: 355454502}
-  - {fileID: 1877928127}
-  - {fileID: 708215995}
-  - {fileID: 584610744}
-  - {fileID: 2093487456}
+  - {fileID: 944033912}
+  - {fileID: 1305065107}
+  - {fileID: 1825125859}
+  - {fileID: 1406080299}
+  - {fileID: 180703273}
   - {fileID: 141907289}
-  - {fileID: 1114716855}
-  - {fileID: 1671576028}
-  - {fileID: 590588826}
-  - {fileID: 556543942}
-  - {fileID: 1743223374}
+  - {fileID: 2093487456}
+  - {fileID: 584610744}
+  - {fileID: 708215995}
+  - {fileID: 1877928127}
+  - {fileID: 355454502}
   - {fileID: 1581126597}
-  - {fileID: 1417829419}
-  - {fileID: 1602480543}
-  - {fileID: 1202227729}
-  - {fileID: 1896954649}
-  - {fileID: 691099296}
+  - {fileID: 1743223374}
+  - {fileID: 556543942}
+  - {fileID: 590588826}
+  - {fileID: 1671576028}
+  - {fileID: 1114716855}
   - {fileID: 1310222277}
-  - {fileID: 1182478799}
-  - {fileID: 351603984}
-  - {fileID: 1712588215}
-  - {fileID: 1774245843}
-  - {fileID: 748489383}
+  - {fileID: 691099296}
+  - {fileID: 1896954649}
+  - {fileID: 1202227729}
+  - {fileID: 1602480543}
+  - {fileID: 1417829419}
   - {fileID: 570060412}
-  - {fileID: 1377871150}
-  - {fileID: 1781321102}
-  - {fileID: 347318244}
-  - {fileID: 1695338368}
-  - {fileID: 1917665089}
+  - {fileID: 748489383}
+  - {fileID: 1774245843}
+  - {fileID: 1712588215}
+  - {fileID: 351603984}
+  - {fileID: 1182478799}
   - {fileID: 954062871}
-  - {fileID: 2045636897}
-  - {fileID: 1332637305}
-  - {fileID: 340657708}
-  - {fileID: 2069198614}
-  - {fileID: 2069277141}
+  - {fileID: 1917665089}
+  - {fileID: 1695338368}
+  - {fileID: 347318244}
+  - {fileID: 1781321102}
+  - {fileID: 1377871150}
   - {fileID: 1693354764}
-  - {fileID: 1633580737}
-  - {fileID: 1365461974}
-  - {fileID: 1969917670}
-  - {fileID: 1200355406}
-  - {fileID: 1504411728}
+  - {fileID: 2069277141}
+  - {fileID: 2069198614}
+  - {fileID: 340657708}
+  - {fileID: 1332637305}
+  - {fileID: 2045636897}
   - {fileID: 571056282}
-  - {fileID: 323023352}
-  - {fileID: 1873945261}
-  - {fileID: 897119668}
-  - {fileID: 467858522}
-  - {fileID: 1998927222}
+  - {fileID: 1504411728}
+  - {fileID: 1200355406}
+  - {fileID: 1969917670}
+  - {fileID: 1365461974}
+  - {fileID: 1633580737}
   - {fileID: 369223667}
+  - {fileID: 1998927222}
+  - {fileID: 467858522}
+  - {fileID: 897119668}
+  - {fileID: 1873945261}
+  - {fileID: 323023352}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1632247744
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1632247742}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4af6678bd8d0490479d734f2d59c9521, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1633580733
 GameObject:
   m_ObjectHideFlags: 0
@@ -4897,7 +4980,7 @@ GameObject:
   - component: {fileID: 1633580738}
   m_Layer: 0
   m_Name: Points
-  m_TagString: SnapPoint
+  m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -4917,9 +5000,9 @@ BoxCollider:
     serializedVersion: 2
     m_Bits: 0
   m_LayerOverridePriority: 0
-  m_IsTrigger: 1
+  m_IsTrigger: 0
   m_ProvidesContacts: 0
-  m_Enabled: 1
+  m_Enabled: 0
   serializedVersion: 3
   m_Size: {x: 0.66, y: 1.91, z: 0.58}
   m_Center: {x: 0, y: 0.89, z: 0}
@@ -5001,6 +5084,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   tileHolder: {fileID: 0}
+  column: 7
+  row: 5
 --- !u!1 &1671576024
 GameObject:
   m_ObjectHideFlags: 0
@@ -5016,7 +5101,7 @@ GameObject:
   - component: {fileID: 1671576029}
   m_Layer: 0
   m_Name: Points
-  m_TagString: SnapPoint
+  m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -5036,9 +5121,9 @@ BoxCollider:
     serializedVersion: 2
     m_Bits: 0
   m_LayerOverridePriority: 0
-  m_IsTrigger: 1
+  m_IsTrigger: 0
   m_ProvidesContacts: 0
-  m_Enabled: 1
+  m_Enabled: 0
   serializedVersion: 3
   m_Size: {x: 0.66, y: 1.91, z: 0.58}
   m_Center: {x: 0, y: 0.89, z: 0}
@@ -5120,6 +5205,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   tileHolder: {fileID: 0}
+  column: 2
+  row: 4
 --- !u!1 &1693354760
 GameObject:
   m_ObjectHideFlags: 0
@@ -5135,7 +5222,7 @@ GameObject:
   - component: {fileID: 1693354765}
   m_Layer: 0
   m_Name: Points
-  m_TagString: SnapPoint
+  m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -5155,9 +5242,9 @@ BoxCollider:
     serializedVersion: 2
     m_Bits: 0
   m_LayerOverridePriority: 0
-  m_IsTrigger: 1
+  m_IsTrigger: 0
   m_ProvidesContacts: 0
-  m_Enabled: 1
+  m_Enabled: 0
   serializedVersion: 3
   m_Size: {x: 0.66, y: 1.91, z: 0.58}
   m_Center: {x: 0, y: 0.89, z: 0}
@@ -5239,6 +5326,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   tileHolder: {fileID: 0}
+  column: 6
+  row: 0
 --- !u!1 &1695338364
 GameObject:
   m_ObjectHideFlags: 0
@@ -5254,7 +5343,7 @@ GameObject:
   - component: {fileID: 1695338369}
   m_Layer: 0
   m_Name: Points
-  m_TagString: SnapPoint
+  m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -5274,9 +5363,9 @@ BoxCollider:
     serializedVersion: 2
     m_Bits: 0
   m_LayerOverridePriority: 0
-  m_IsTrigger: 1
+  m_IsTrigger: 0
   m_ProvidesContacts: 0
-  m_Enabled: 1
+  m_Enabled: 0
   serializedVersion: 3
   m_Size: {x: 0.66, y: 1.91, z: 0.58}
   m_Center: {x: 0, y: 0.89, z: 0}
@@ -5339,7 +5428,7 @@ Transform:
   m_GameObject: {fileID: 1695338364}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -0.5, y: -0.4, z: 4.25}
+  m_LocalPosition: {x: -0.50000006, y: -0.4, z: 4.25}
   m_LocalScale: {x: 1.0972, y: 1.9986595, z: 1.0972}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -5358,6 +5447,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   tileHolder: {fileID: 0}
+  column: 5
+  row: 2
 --- !u!1 &1710278089
 GameObject:
   m_ObjectHideFlags: 0
@@ -5370,7 +5461,6 @@ GameObject:
   - component: {fileID: 1710278092}
   - component: {fileID: 1710278091}
   - component: {fileID: 1710278090}
-  - component: {fileID: 1710278094}
   m_Layer: 0
   m_Name: Wall
   m_TagString: Wall
@@ -5464,33 +5554,6 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!54 &1710278094
-Rigidbody:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1710278089}
-  serializedVersion: 4
-  m_Mass: 1
-  m_Drag: 0
-  m_AngularDrag: 0.05
-  m_CenterOfMass: {x: 0, y: 0, z: 0}
-  m_InertiaTensor: {x: 1, y: 1, z: 1}
-  m_InertiaRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_IncludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_ExcludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_ImplicitCom: 1
-  m_ImplicitTensor: 1
-  m_UseGravity: 1
-  m_IsKinematic: 1
-  m_Interpolate: 2
-  m_Constraints: 126
-  m_CollisionDetection: 2
 --- !u!1 &1712588211
 GameObject:
   m_ObjectHideFlags: 0
@@ -5506,7 +5569,7 @@ GameObject:
   - component: {fileID: 1712588216}
   m_Layer: 0
   m_Name: Points
-  m_TagString: SnapPoint
+  m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -5526,9 +5589,9 @@ BoxCollider:
     serializedVersion: 2
     m_Bits: 0
   m_LayerOverridePriority: 0
-  m_IsTrigger: 1
+  m_IsTrigger: 0
   m_ProvidesContacts: 0
-  m_Enabled: 1
+  m_Enabled: 0
   serializedVersion: 3
   m_Size: {x: 0.66, y: 1.91, z: 0.58}
   m_Center: {x: 0, y: 0.89, z: 0}
@@ -5610,6 +5673,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   tileHolder: {fileID: 0}
+  column: 4
+  row: 3
 --- !u!1 &1743223370
 GameObject:
   m_ObjectHideFlags: 0
@@ -5625,7 +5690,7 @@ GameObject:
   - component: {fileID: 1743223375}
   m_Layer: 0
   m_Name: Points
-  m_TagString: SnapPoint
+  m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -5645,9 +5710,9 @@ BoxCollider:
     serializedVersion: 2
     m_Bits: 0
   m_LayerOverridePriority: 0
-  m_IsTrigger: 1
+  m_IsTrigger: 0
   m_ProvidesContacts: 0
-  m_Enabled: 1
+  m_Enabled: 0
   serializedVersion: 3
   m_Size: {x: 0.66, y: 1.91, z: 0.58}
   m_Center: {x: 0, y: 0.89, z: 0}
@@ -5710,7 +5775,7 @@ Transform:
   m_GameObject: {fileID: 1743223370}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -1.75, y: -0.4, z: 0.5}
+  m_LocalPosition: {x: -1.7500001, y: -0.4, z: 0.5}
   m_LocalScale: {x: 1.0972, y: 1.9986595, z: 1.0972}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -5729,6 +5794,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   tileHolder: {fileID: 0}
+  column: 2
+  row: 1
 --- !u!1 &1774245839
 GameObject:
   m_ObjectHideFlags: 0
@@ -5744,7 +5811,7 @@ GameObject:
   - component: {fileID: 1774245844}
   m_Layer: 0
   m_Name: Points
-  m_TagString: SnapPoint
+  m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -5764,9 +5831,9 @@ BoxCollider:
     serializedVersion: 2
     m_Bits: 0
   m_LayerOverridePriority: 0
-  m_IsTrigger: 1
+  m_IsTrigger: 0
   m_ProvidesContacts: 0
-  m_Enabled: 1
+  m_Enabled: 0
   serializedVersion: 3
   m_Size: {x: 0.66, y: 1.91, z: 0.58}
   m_Center: {x: 0, y: 0.89, z: 0}
@@ -5829,7 +5896,7 @@ Transform:
   m_GameObject: {fileID: 1774245839}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -0.5, y: -0.4, z: 3}
+  m_LocalPosition: {x: -0.50000006, y: -0.4, z: 3}
   m_LocalScale: {x: 1.0972, y: 1.9986595, z: 1.0972}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -5848,6 +5915,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   tileHolder: {fileID: 0}
+  column: 4
+  row: 2
 --- !u!1 &1781321098
 GameObject:
   m_ObjectHideFlags: 0
@@ -5863,7 +5932,7 @@ GameObject:
   - component: {fileID: 1781321103}
   m_Layer: 0
   m_Name: Points
-  m_TagString: SnapPoint
+  m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -5883,9 +5952,9 @@ BoxCollider:
     serializedVersion: 2
     m_Bits: 0
   m_LayerOverridePriority: 0
-  m_IsTrigger: 1
+  m_IsTrigger: 0
   m_ProvidesContacts: 0
-  m_Enabled: 1
+  m_Enabled: 0
   serializedVersion: 3
   m_Size: {x: 0.66, y: 1.91, z: 0.58}
   m_Center: {x: 0, y: 0.89, z: 0}
@@ -5967,6 +6036,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   tileHolder: {fileID: 0}
+  column: 5
+  row: 4
 --- !u!1 &1825125855
 GameObject:
   m_ObjectHideFlags: 0
@@ -5982,7 +6053,7 @@ GameObject:
   - component: {fileID: 1825125860}
   m_Layer: 0
   m_Name: Points
-  m_TagString: SnapPoint
+  m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -6002,9 +6073,9 @@ BoxCollider:
     serializedVersion: 2
     m_Bits: 0
   m_LayerOverridePriority: 0
-  m_IsTrigger: 1
+  m_IsTrigger: 0
   m_ProvidesContacts: 0
-  m_Enabled: 1
+  m_Enabled: 0
   serializedVersion: 3
   m_Size: {x: 0.66, y: 1.91, z: 0.58}
   m_Center: {x: 0, y: 0.89, z: 0}
@@ -6086,6 +6157,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   tileHolder: {fileID: 0}
+  column: 0
+  row: 3
 --- !u!1 &1873945257
 GameObject:
   m_ObjectHideFlags: 0
@@ -6121,7 +6194,7 @@ BoxCollider:
     serializedVersion: 2
     m_Bits: 0
   m_LayerOverridePriority: 0
-  m_IsTrigger: 1
+  m_IsTrigger: 0
   m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 3
@@ -6205,6 +6278,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   tileHolder: {fileID: 0}
+  column: 8
+  row: 4
 --- !u!1 &1877928123
 GameObject:
   m_ObjectHideFlags: 0
@@ -6220,7 +6295,7 @@ GameObject:
   - component: {fileID: 1877928128}
   m_Layer: 0
   m_Name: Points
-  m_TagString: SnapPoint
+  m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -6240,9 +6315,9 @@ BoxCollider:
     serializedVersion: 2
     m_Bits: 0
   m_LayerOverridePriority: 0
-  m_IsTrigger: 1
+  m_IsTrigger: 0
   m_ProvidesContacts: 0
-  m_Enabled: 1
+  m_Enabled: 0
   serializedVersion: 3
   m_Size: {x: 0.66, y: 1.91, z: 0.58}
   m_Center: {x: 0, y: 0.89, z: 0}
@@ -6324,6 +6399,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   tileHolder: {fileID: 0}
+  column: 1
+  row: 4
 --- !u!1 &1896954645
 GameObject:
   m_ObjectHideFlags: 0
@@ -6339,7 +6416,7 @@ GameObject:
   - component: {fileID: 1896954650}
   m_Layer: 0
   m_Name: Points
-  m_TagString: SnapPoint
+  m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -6359,9 +6436,9 @@ BoxCollider:
     serializedVersion: 2
     m_Bits: 0
   m_LayerOverridePriority: 0
-  m_IsTrigger: 1
+  m_IsTrigger: 0
   m_ProvidesContacts: 0
-  m_Enabled: 1
+  m_Enabled: 0
   serializedVersion: 3
   m_Size: {x: 0.66, y: 1.91, z: 0.58}
   m_Center: {x: 0, y: 0.89, z: 0}
@@ -6424,7 +6501,7 @@ Transform:
   m_GameObject: {fileID: 1896954645}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -0.5, y: -0.4, z: 1.75}
+  m_LocalPosition: {x: -0.50000006, y: -0.4, z: 1.75}
   m_LocalScale: {x: 1.0972, y: 1.9986595, z: 1.0972}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -6443,6 +6520,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   tileHolder: {fileID: 0}
+  column: 3
+  row: 2
 --- !u!1 &1917665085
 GameObject:
   m_ObjectHideFlags: 0
@@ -6458,7 +6537,7 @@ GameObject:
   - component: {fileID: 1917665090}
   m_Layer: 0
   m_Name: Points
-  m_TagString: SnapPoint
+  m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -6478,9 +6557,9 @@ BoxCollider:
     serializedVersion: 2
     m_Bits: 0
   m_LayerOverridePriority: 0
-  m_IsTrigger: 1
+  m_IsTrigger: 0
   m_ProvidesContacts: 0
-  m_Enabled: 1
+  m_Enabled: 0
   serializedVersion: 3
   m_Size: {x: 0.66, y: 1.91, z: 0.58}
   m_Center: {x: 0, y: 0.89, z: 0}
@@ -6543,7 +6622,7 @@ Transform:
   m_GameObject: {fileID: 1917665085}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -1.75, y: -0.4, z: 4.25}
+  m_LocalPosition: {x: -1.7500001, y: -0.4, z: 4.25}
   m_LocalScale: {x: 1.0972, y: 1.9986595, z: 1.0972}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -6562,6 +6641,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   tileHolder: {fileID: 0}
+  column: 5
+  row: 1
 --- !u!1 &1969917666
 GameObject:
   m_ObjectHideFlags: 0
@@ -6577,7 +6658,7 @@ GameObject:
   - component: {fileID: 1969917671}
   m_Layer: 0
   m_Name: Points
-  m_TagString: SnapPoint
+  m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -6597,9 +6678,9 @@ BoxCollider:
     serializedVersion: 2
     m_Bits: 0
   m_LayerOverridePriority: 0
-  m_IsTrigger: 1
+  m_IsTrigger: 0
   m_ProvidesContacts: 0
-  m_Enabled: 1
+  m_Enabled: 0
   serializedVersion: 3
   m_Size: {x: 0.66, y: 1.91, z: 0.58}
   m_Center: {x: 0, y: 0.89, z: 0}
@@ -6681,6 +6762,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   tileHolder: {fileID: 0}
+  column: 7
+  row: 3
 --- !u!1 &1998927218
 GameObject:
   m_ObjectHideFlags: 0
@@ -6716,7 +6799,7 @@ BoxCollider:
     serializedVersion: 2
     m_Bits: 0
   m_LayerOverridePriority: 0
-  m_IsTrigger: 1
+  m_IsTrigger: 0
   m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 3
@@ -6781,7 +6864,7 @@ Transform:
   m_GameObject: {fileID: 1998927218}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -1.75, y: -0.4, z: 8}
+  m_LocalPosition: {x: -1.7500001, y: -0.4, z: 8}
   m_LocalScale: {x: 1.0972, y: 1.9986595, z: 1.0972}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -6800,6 +6883,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   tileHolder: {fileID: 0}
+  column: 8
+  row: 1
 --- !u!1 &2045636893
 GameObject:
   m_ObjectHideFlags: 0
@@ -6815,7 +6900,7 @@ GameObject:
   - component: {fileID: 2045636898}
   m_Layer: 0
   m_Name: Points
-  m_TagString: SnapPoint
+  m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -6835,9 +6920,9 @@ BoxCollider:
     serializedVersion: 2
     m_Bits: 0
   m_LayerOverridePriority: 0
-  m_IsTrigger: 1
+  m_IsTrigger: 0
   m_ProvidesContacts: 0
-  m_Enabled: 1
+  m_Enabled: 0
   serializedVersion: 3
   m_Size: {x: 0.66, y: 1.91, z: 0.58}
   m_Center: {x: 0, y: 0.89, z: 0}
@@ -6919,6 +7004,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   tileHolder: {fileID: 0}
+  column: 6
+  row: 5
 --- !u!1 &2056151949
 GameObject:
   m_ObjectHideFlags: 0
@@ -6934,7 +7021,7 @@ GameObject:
   - component: {fileID: 2056151954}
   m_Layer: 0
   m_Name: Points
-  m_TagString: SnapPoint
+  m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -6954,9 +7041,9 @@ BoxCollider:
     serializedVersion: 2
     m_Bits: 0
   m_LayerOverridePriority: 0
-  m_IsTrigger: 1
+  m_IsTrigger: 0
   m_ProvidesContacts: 0
-  m_Enabled: 1
+  m_Enabled: 0
   serializedVersion: 3
   m_Size: {x: 0.66, y: 1.91, z: 0.58}
   m_Center: {x: 0, y: 0.89, z: 0}
@@ -7038,6 +7125,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   tileHolder: {fileID: 0}
+  column: 0
+  row: 0
 --- !u!1 &2069198610
 GameObject:
   m_ObjectHideFlags: 0
@@ -7053,7 +7142,7 @@ GameObject:
   - component: {fileID: 2069198615}
   m_Layer: 0
   m_Name: Points
-  m_TagString: SnapPoint
+  m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -7073,9 +7162,9 @@ BoxCollider:
     serializedVersion: 2
     m_Bits: 0
   m_LayerOverridePriority: 0
-  m_IsTrigger: 1
+  m_IsTrigger: 0
   m_ProvidesContacts: 0
-  m_Enabled: 1
+  m_Enabled: 0
   serializedVersion: 3
   m_Size: {x: 0.66, y: 1.91, z: 0.58}
   m_Center: {x: 0, y: 0.89, z: 0}
@@ -7138,7 +7227,7 @@ Transform:
   m_GameObject: {fileID: 2069198610}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -0.5, y: -0.4, z: 5.5}
+  m_LocalPosition: {x: -0.50000006, y: -0.4, z: 5.5}
   m_LocalScale: {x: 1.0972, y: 1.9986595, z: 1.0972}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -7157,6 +7246,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   tileHolder: {fileID: 0}
+  column: 6
+  row: 2
 --- !u!1 &2069277137
 GameObject:
   m_ObjectHideFlags: 0
@@ -7172,7 +7263,7 @@ GameObject:
   - component: {fileID: 2069277142}
   m_Layer: 0
   m_Name: Points
-  m_TagString: SnapPoint
+  m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -7192,9 +7283,9 @@ BoxCollider:
     serializedVersion: 2
     m_Bits: 0
   m_LayerOverridePriority: 0
-  m_IsTrigger: 1
+  m_IsTrigger: 0
   m_ProvidesContacts: 0
-  m_Enabled: 1
+  m_Enabled: 0
   serializedVersion: 3
   m_Size: {x: 0.66, y: 1.91, z: 0.58}
   m_Center: {x: 0, y: 0.89, z: 0}
@@ -7257,7 +7348,7 @@ Transform:
   m_GameObject: {fileID: 2069277137}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -1.75, y: -0.4, z: 5.5}
+  m_LocalPosition: {x: -1.7500001, y: -0.4, z: 5.5}
   m_LocalScale: {x: 1.0972, y: 1.9986595, z: 1.0972}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -7276,6 +7367,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   tileHolder: {fileID: 0}
+  column: 6
+  row: 1
 --- !u!1 &2093487452
 GameObject:
   m_ObjectHideFlags: 0
@@ -7291,7 +7384,7 @@ GameObject:
   - component: {fileID: 2093487457}
   m_Layer: 0
   m_Name: Points
-  m_TagString: SnapPoint
+  m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -7311,9 +7404,9 @@ BoxCollider:
     serializedVersion: 2
     m_Bits: 0
   m_LayerOverridePriority: 0
-  m_IsTrigger: 1
+  m_IsTrigger: 0
   m_ProvidesContacts: 0
-  m_Enabled: 1
+  m_Enabled: 0
   serializedVersion: 3
   m_Size: {x: 0.66, y: 1.91, z: 0.58}
   m_Center: {x: 0, y: 0.89, z: 0}
@@ -7395,6 +7488,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   tileHolder: {fileID: 0}
+  column: 1
+  row: 1
 --- !u!1660057539 &9223372036854775807
 SceneRoots:
   m_ObjectHideFlags: 0

@@ -20,6 +20,11 @@ public class Spawner : MonoBehaviour
             GameObject tileHolderToSpawn = tileHolderPrefab;
             GameObject tileHolder = Instantiate(tileHolderToSpawn, spawnPoints[i].position, Quaternion.identity, spawnPoints[i]);
             tileHolder.name += "  " + Random.Range(0, 50); 
+
+            if(i >= 2)
+            {
+                tileHolder.GetComponent<TilesHolder>().isBackTileHolder = true;
+            }
         }
     }
 

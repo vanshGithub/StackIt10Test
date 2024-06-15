@@ -2,5 +2,6 @@ using UnityEngine;
 
 public class SnapPoint : MonoBehaviour
 {
-   [HideInInspector] public TilesHolder tileHolder;
+    public TilesHolder tileHolder;
+    public int column, row;
 }
